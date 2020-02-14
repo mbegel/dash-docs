@@ -60,7 +60,7 @@ jobs:
   "python-2.7":
     <<: *test-template
     docker:
-      - image: circleci/python:2.7-stretch-browsers
+      - image: circleci/python:2.7.16-stretch-browsers
     environment:
       PERCY_ENABLE: 0
 
